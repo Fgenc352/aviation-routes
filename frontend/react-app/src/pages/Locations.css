@@ -1,0 +1,89 @@
+.locations-container {
+    width: 100%;
+}
+.filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.filter-row label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.filter-row select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+.form-row label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.form-row input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-row button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-row button:hover {
+    background: #0069d9;
+}
+.form-row .cancel-btn {
+    background: #6c757d;
+}
+.form-row .cancel-btn:hover {
+    background: #5a6268;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+.table th,
+.table td {
+    padding: 8px 6px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.table .no-data {
+    text-align: center;
+    color: #666;
+}
+
+.table td button {
+    margin-right: 8px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.table td button:hover {
+    background: #f0f0f0;
+}
+.table td button.del {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+.table td button.del:hover {
+    background: #f8d7da;
+}
